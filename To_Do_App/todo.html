@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="icon" type="icon/x-image" href="./green.png">
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="title-container">
+        <div id="title">
+            <h1>My To Do's <i class="fa-solid fa-clipboard-list"></i>
+            </h1>
+            <div id="type-btn">
+                <input id="input-field" type="text" placeholder="Type your to do's here">
+                <button id="btn" type="button">Add To Do</button>
+            </div>
+        </div>
+        <div id="to-do-list" class="to-do">
+            <ul id="my-list">
+                <li class="para-style">
+                    <span class="text">Complete To-Do Task</span>
+                    <span class="icon"><i class="fa-solid fa-trash"></i></span>
+                </li>
+                <li class="para-style">
+                    <span class="text">Eat well</span>
+                    <span class="icon"><i class="fa-solid fa-trash"></i></span>
+                </li>
+                <li class="para-style">
+                    <span class="text">sleep well</span>
+                    <span class="icon"><i class="fa-solid fa-trash"></i>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="check-box">
+            <input id="hide" type="checkbox"> <label>Hide List</label>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+
+</html>
